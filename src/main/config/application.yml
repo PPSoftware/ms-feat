@@ -1,0 +1,14 @@
+spring:
+  jpa:
+    properties:
+      dialect:  org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rpgsys.ms.feats
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: 210587
+    hikari:
+      maximum-pool-size: 2
+      connection-test-query: SELECT 1 FROM DUAL
