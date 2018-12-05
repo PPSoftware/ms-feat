@@ -10,6 +10,6 @@ spring:
     url: jdbc:postgresql://localhost:5432/ms_feats
     driver-class-name: org.postgresql.Driver
     username: postgres
-    password: 210587
+    password: pass4post
     hikari:
       maximum-pool-size: 2
