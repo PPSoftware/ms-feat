@@ -5,7 +5,7 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:postgresql://localhost:5432/rpgsys.ms.feats
+    url: jdbc:postgresql://localhost:5432/ms_feats
     driver-class-name: org.postgresql.Driver
     username: postgres
     password: pass4post
